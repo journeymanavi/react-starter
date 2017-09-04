@@ -1,0 +1,41 @@
+{
+  "name": "react-starter",
+  "version": "0.0.0",
+  "description": "A starter project for React apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "gest",
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/journeymanavi/react-starter.git"
+  },
+  "keywords": [
+    "react",
+    "starter",
+    "project",
+    "boilerplate",
+    "kit"
+  ],
+  "author": "journeymanavi",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/journeymanavi/react-starter/issues"
+  },
+  "homepage": "https://github.com/journeymanavi/react-starter#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "file-loader": "^0.11.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
