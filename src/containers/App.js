@@ -9,14 +9,18 @@ export default class App extends React.Component {
 
   render() {
     const style = {
-      backgroundColor: "black",
-      color: "white",
-      textAlign: "center"
+      fontFamily: 'sans-serif',
+      fontWeight: 'lighter',
+      textAlign: 'center'
     };
     return(
       <div style={style}>
         <Title>React App Starter</Title>
-        <img alt="React App Starter" src={reactAppLogo}/>
+        <img 
+          src={reactAppLogo} 
+          width="100px" 
+          height="100px" 
+          alt="React App Starter"/>
       </div>
     );
   }

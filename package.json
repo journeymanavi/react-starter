@@ -6,7 +6,7 @@
   "scripts": {
     "test": "gest",
     "build": "webpack",
-    "dev": "webpack-dev-server"
+    "start": "webpack-dev-server --open --color"
   },
   "repository": {
     "type": "git",
